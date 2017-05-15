@@ -1,0 +1,19 @@
+nohup: watchfy: No such file or directory
+[BS] Copy the following snippet into your website, just before the closing </body> tag
+<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.8'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
+[BS] Access URLs:
+ -------------------------
+ UI: http://localhost:3001
+ -------------------------
+nohup: watchfy: No such file or directory
+[BS] Access URLs:
+ ----------------------------
+ Local: http://localhost:3000
+ ----------------------------
+    UI: http://localhost:3001
+ ----------------------------
+[BS] Serving files from: ./public/
+[BS] Watching files...
